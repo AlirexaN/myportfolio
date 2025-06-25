@@ -14,11 +14,11 @@ const ProgressAnimation = ({ setHtml, setCss, setJs, setReactJs, setGit }) => {
       });
       setJs((OldProgress) => {
         const diff = Math.floor(Math.random() + 1);
-        return Math.min(OldProgress + diff, 60);
+        return Math.min(OldProgress + diff, 70);
       });
       setReactJs((OldProgress) => {
         const diff = Math.floor(Math.random() + 1);
-        return Math.min(OldProgress + diff, 50);
+        return Math.min(OldProgress + diff, 70);
       });
       setGit((OldProgress) => {
         const diff = Math.floor(Math.random() + 1);
